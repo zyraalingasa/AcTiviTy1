@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+.container {
+    border: 1px solid black;
+}
+
+
+.header {
+    margin: 0px;
+    padding: 0px;
+}
+
+.headerlinestrip {
+    background-color: #000080;
+    min-height: 6px;
+}
+
+.nav-bar .nbar {    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#046307;      
+}
+
+.nav-bar .nbar li {
+        float: left;      
+}
+
+
+.nav-bar .nbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.nav-bar .nbar li a:hover {
+    background-color:#000080;
+    ;
+  }
+
+
+.body-container {
+      margin-left:10px;
+      margin-right:10px;
+      margin-bottom:10px;
+  }
+
+
+.body-container .bc-head-title {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: large;
+}
+
+.body-container p {
+    text-align: justify;
+}
+
+ul.bc-policy-logo {
+    list-style-image:url("policy.jpg");
+    margin-left:20px;
+}
+  
+
+.form-container {
+    float: right;    
+    margin-top:20px;
+    margin-right: 50px;
+}
+
+.form-container form > input , label , button  {
+    display: block !important;
+    margin-top:5px;
+    
+}
+
+
+.card {
+    width:300px;
+    background-color: #F3F6F7;
+    border: 1px solid #bdb9b9;
+    display: inline-block;
+    vertical-align:top;   
+    border-radius: 5px;     
+    margin: 12px;
+  }
+.card p {
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom: 5px;
+  }
+
+.card img {
+    width: 100%;
+    height: 150px;    
+}  
